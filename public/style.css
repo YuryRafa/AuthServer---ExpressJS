@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
@@ -10,6 +9,7 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;    
     justify-content: center;
     align-items: center;
     background-color: #f0f2f5;
@@ -55,7 +55,7 @@ form.login button {
     background-color: #4b6cb7;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
 }
